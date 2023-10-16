@@ -51,12 +51,12 @@ norse_ideas = {
 
 SDN_ideas = {
 	start = {
-		possible_policy = 1
-		diplomatic_reputation = 2
+		discipline = 0.05
+		may_perform_slave_raid_on_same_religion = yes
 	}
 	
 	bonus = {
-		administrative_efficiency = 0.05
+		tolerance_own = 2
 	}	
 
 	trigger = {
@@ -64,30 +64,66 @@ SDN_ideas = {
 	}
 	free = yes
 	
-	SDN_Holy_Justice = {
-		legitimacy = 1.5 #unique (it's the HRE :D)
-		republican_tradition = 0.5
-		devotion = 1.5
-		meritocracy = 1.5	#For completion's sake
-		horde_unity = 1.5
-	}
-	hlr_kaiserliche_armee = {
-		land_morale = 0.15
-	}
-	hlr_imperial_diplomacy = {
-		improve_relation_modifier = 0.33
-	}
-	hlr_centralised_empire = {
-		global_tax_modifier = 0.2
-	}
-	hlr_roman_heritage = {
+	SDN_For_Odin = {
 		core_creation = -0.2
 	}
-	hlr_adopting_the_goosestep = {
-		discipline = 0.05
+	SDN_Moral = {
+		land_morale = 0.15
 	}
-	hlr_onwards_and_upwards = {
-		governing_capacity_modifier = 0.1
+	SDN_Spread_of_faith = {
+		global_missionary_strength = 0.02
+		missionaries = 1
+	}
+	SDN_For_the_coffers = {
+		global_tax_modifier = 0.2
+	}
+	SDN_On_demand_training = {
+		infantry_power = 0.2
+	}
+	SDN_Crusaders_of_the_Carribean = {
+		galley_power = 0.25
+	}
+	SDN_For_the_cause = {
+		manpower_in_true_faith_provinces = 0.2
+	}
+}
+
+GRL_ideas = {
+	start = {
+		discipline = 0.05
+		may_perform_slave_raid_on_same_religion = yes
+	}
+	
+	bonus = {
+		tolerance_own = 2
+	}	
+
+	trigger = {
+		tag = GRL
+	}
+	free = yes
+	
+	SDN_For_Odin = {
+		core_creation = -0.2
+	}
+	SDN_Moral = {
+		land_morale = 0.15
+	}
+	SDN_Spread_of_faith = {
+		global_missionary_strength = 0.02
+		missionaries = 1
+	}
+	SDN_For_the_coffers = {
+		global_tax_modifier = 0.2
+	}
+	SDN_On_demand_training = {
+		infantry_power = 0.2
+	}
+	SDN_Crusaders_of_the_Carribean = {
+		galley_power = 0.25
+	}
+	SDN_For_the_cause = {
+		manpower_in_true_faith_provinces = 0.2
 	}
 }
 #####
